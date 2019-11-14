@@ -1,0 +1,161 @@
+
+
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	background-color: white;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100%/3);
+	width: 100%;
+}
+.Big_box {
+	display: flex;
+	/* align-items: bottom_center;
+	justify-content: bottom_center;*/
+	height: 80%;
+	width: 100%;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	Margin: 0;
+}
+
+.Row_box {
+	display: flex;
+	height: 20%;
+	width: 100%;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.opaque {
+	opacity: 0.5;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img {
+	height: 70%;
+	width: 70%;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.green {background-color: #76ff76;}
+.light_blue {background-color: #76bbff;}
+.red {background-color: #ff7677;}
+.purple {background-color: #7676ff;}
+.orange {background-color: #ffba76;}
+.black {background-color: #000000;}
+.cream {background-color: #FFE9C8;}
+.yellow {background-color: #ffff76;}
+.pink {background-color: #FFC0CB;}
+.clear {background-color:#fdcf00 ;} 
+
+
+.narrow-col {
+	display: block;
+	height: 100%;
+	width: 20%;
+}
+
+.narrow-col2 {
+	display: block;
+	height: 100%;
+	width: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+.contain-image {
+	max-height:75%;
+	max-width: 75%;
+	
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+   height: 100%;
+   width: 100%;
+   display: block;
+  }
+  
+.narrow-col {
+	display: flex;
+	height: 20%;
+	width: 100%;
+}
+
+ .narrow-col2{
+	display: block;
+	height: 60%;
+	width: 100%;
+}
+ 
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100%/3);
+	height: 100%;
+}
+ 
+.Big_box {
+	display: flex;
+	height: 80%;
+	width: 100%;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	Margin: 0;
+}
+
+.Row_box {
+	display: flex;
+	height: 20%;
+	width: 100%;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+}
+ 
+ .image {
+	height: 10%;
+	width: 10%;
+	display: flex;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.contain-image {
+	max-height:75%;
+	max-width: 75%;
+	
+}
+
+ 
+ 
+}
+
